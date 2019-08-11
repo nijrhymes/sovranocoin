@@ -1,0 +1,29 @@
+.menu-button{
+	background-color: transparent;
+	color: #fff;
+	padding: 15px;
+	font-size: 15px;
+	cursor: pointer
+	border: 1px solid #fff;
+}
+
+.right-menu{
+	position: relative;
+	display: inline-block;
+	float: right;
+}
+
+.dropdown-menu{
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 158px;
+	z-index: 1;
+}
+
+.right-menu:hover .dropdown-menu{
+	display:block;
+}
+
+.right-menu:hover .menu-button{
+	background-color: transparent;
